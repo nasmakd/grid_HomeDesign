@@ -97,17 +97,20 @@ header{
     line-height: 50px;
     font-weight: bold;
     color: #3a312c;
+    transition: .4s;
 }
 li.active a, .gnb li:hover a{
     color: #e2c0ad;
 }
+
 li.active a::after, .gnb li:hover a::after{
-    content: "";
     display: block;
+    content: "";
     height: 3px;
     background-color: #e2c0ad;
     margin-top: -3px;
 }
+
 
 /* contents */
 section{}
