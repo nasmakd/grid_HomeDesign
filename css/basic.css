@@ -99,13 +99,11 @@ li.active a::after, .gnb li:hover a::after{
 }
 
 
-/* contents */
+/* contents */s
 section{}
 .s1{
     display: flex;
     padding: 110px 0;
-    border-left: 1px solid #e2c0ad;
-    border-right: 1px solid #e2c0ad;
 }
 .s1 > div{
     flex: 1;
@@ -160,8 +158,8 @@ section{}
 
 .s3{
     padding: 110px 0;
-    border-right: 1px solid #e2c0ad;
-    border-left: 1px solid #e2c0ad;
+    
+
 }
 .s3_title{
     text-align: center;
@@ -239,9 +237,8 @@ section{}
 
 .s4{
     height: 350px;
-    border-top: 1px solid #e2c0ad;
-    border-bottom: 1px solid #e2c0ad;
     background-image: url(../img/s4_bg.jpg);
+    background-color: rgb(248, 221, 206, .3);
     background-size: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -263,8 +260,8 @@ section{}
 
 .s5{
     padding: 110px 10px;
-    border-right: 1px solid #e2c0ad;
-    border-left: 1px solid #e2c0ad;
+    
+
 }
 .s5 h3{
     font-size: 24px;
