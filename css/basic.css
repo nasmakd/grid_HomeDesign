@@ -99,7 +99,7 @@ li.active a::after, .gnb li:hover a::after{
 }
 
 
-/* contents */s
+/* contents */
 section{}
 .s1{
     display: flex;
